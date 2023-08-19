@@ -1,15 +1,15 @@
 {
-  "name": "littlecxm/flarum-reply-to-see",
+  "name": "rehiy/flarum-reply-to-see",
   "description": "Add reply to see to your forum.",
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^1.2.0",
+    "flarum/core": "^1.8.0",
     "flarum/bbcode": "^1.2.0"
   },
   "autoload": {
     "psr-4": {
-      "Littlecxm\\ReplyToSee\\": "src/"
+      "Rehiy\\ReplyToSee\\": "src/"
     }
   },
   "extra": {

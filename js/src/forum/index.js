@@ -7,7 +7,7 @@ import LogInModal from "flarum/forum/components/LogInModal";
 import TextEditor from "flarum/common/components/TextEditor";
 import TextEditorButton from "flarum/common/components/TextEditorButton";
 
-app.initializers.add("littlecxm/reply-to-see", () => {
+app.initializers.add("rehiy/reply-to-see", () => {
   extend(TextEditor.prototype, "toolbarItems", function (items) {
     items.add(
       "reply-to-see",
@@ -19,7 +19,7 @@ app.initializers.add("littlecxm/reply-to-see", () => {
         }}
         icon="fa fa-comment-medical"
       >
-        {app.translator.trans("littlecxm-reply-to-see.forum.button_tooltip")}
+        {app.translator.trans("rehiy-reply-to-see.forum.button_tooltip")}
       </TextEditorButton>
     );
   });

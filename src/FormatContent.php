@@ -1,6 +1,7 @@
 <?php
 
-namespace Littlecxm\ReplyToSee;
+namespace Rehiy\ReplyToSee;
+
 use Flarum\Settings\SettingsRepositoryInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
