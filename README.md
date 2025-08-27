@@ -35,13 +35,13 @@ When creating/editing a post, you can simply use the [reply] BBCode to make it h
 install manually with composer:
 
 ```bash
-composer require rehiy/flarum-reply-to-see:*
+composer require xiaoyi510/flarum-reply-to-see:*
 ```
 
 Updating
 
 ```bash
-composer update rehiy/flarum-reply-to-see
+composer update xiaoyi510/flarum-reply-to-see
 php flarum cache:clear
 ```
 
