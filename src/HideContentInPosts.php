@@ -1,6 +1,6 @@
 <?php
 
-namespace Rehiy\ReplyToSee;
+namespace Xiaoyi510\ReplyToSee;
 
 use Flarum\Api\Serializer\BasicPostSerializer;
 use Flarum\Database\AbstractModel;
