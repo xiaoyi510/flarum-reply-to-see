@@ -7,6 +7,9 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 
 class FormatContent
 {
+    public $settings;
+    public $translator;
+    
     public function __construct()
     {
         $this->settings = resolve(SettingsRepositoryInterface::class);
