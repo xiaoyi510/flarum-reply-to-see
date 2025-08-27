@@ -2,7 +2,7 @@
 
 use Flarum\Api\Serializer\BasicPostSerializer;
 use Flarum\Extend;
-use Rehiy\ReplyToSee\HideContentInPosts;
+use Xiaoyi510\ReplyToSee\HideContentInPosts;
 use s9e\TextFormatter\Configurator;
 
 return [
